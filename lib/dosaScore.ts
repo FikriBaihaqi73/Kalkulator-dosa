@@ -272,6 +272,76 @@ export interface DosaItem {
     "udud": 25, // Variasi slang
     "ngerokok": 25, // Variasi typo/slang
     "asap rokok": 25, // Variasi (tergantung konteks)
+
+    "menyiksa hewan": 60, // Keyword baru
+    "aniaya hewan": 60, // Keyword baru
+    "pukul hewan": 60, // Variasi
+    "sakiti hewan": 60, // Variasi
+    "bunuh hewan sembarangan": 60, // Variasi
+    "telantarkan hewan": 60, // Variasi
+    "tidak beri makan hewan": 60, // Variasi
+    "kekerasan pada hewan": 60, // Variasi
+
+    "masturbasi": 30, // Keyword baru
+    "onani": 30, // Keyword baru
+    "colmek": 30, // Variasi slang
+    "solo seks": 30, // Variasi
+    "main sendiri": 30, // Variasi slang
+
+    "tinggalkan zakat": 120, // Keyword baru
+    "tidak bayar zakat": 120, // Keyword baru
+    "enggan zakat": 120, // Variasi
+    "tidak keluarkan zakat": 120, // Variasi
+    "hindari zakat": 120, // Variasi
+
+    "tinggalkan haji": 180, // Keyword baru (jika mampu)
+    "tidak haji padahal mampu": 180, // Keyword baru
+    "enggan haji": 180, // Variasi
+    "tidak tunaikan haji": 180, // Variasi
+
+    "berkata kasar": 30, // Keyword baru
+    "mencela": 30, // Keyword baru
+    "menghina": 30, // Variasi
+    "memaki": 30, // Variasi
+    "ngomong kotor": 30, // Variasi slang
+    "misuh": 30, // Variasi slang Jawa
+    "ngata-ngatain orang": 30, // Variasi slang
+
+    "mengambil hak orang lain": 70, // Keyword baru
+    "makan hak orang": 70, // Keyword baru
+    "merampas hak": 70, // Variasi
+    "tidak bayar hutang": 70, // Variasi (jika disengaja dan mampu)
+    "menunda bayar hutang": 70, // Variasi (jika disengaja dan mampu)
+    "ingkar janji": 50, // Keyword baru (skor sedikit lebih rendah dari mengambil hak)
+    "tidak tepati janji": 50, // Variasi
+    "bohong janji": 50, // Variasi
+
+    "tidak amanah": 50, // Keyword baru
+    "khianat": 50, // Keyword baru
+    "tidak jujur": 50, // Variasi (overlap dengan bohong, tapi bisa dibiarkan)
+    "menyalahgunakan kepercayaan": 50, // Variasi
+
+    "iri": 30, // Keyword baru
+    "dengki": 30, // Keyword baru
+    "cemburu buta": 30, // Variasi (tergantung konteks)
+    "tidak suka lihat orang senang": 30, // Variasi
+
+    "suudzon": 25, // Keyword baru
+    "berburuk sangka": 25, // Keyword baru
+    "curiga berlebihan": 25, // Variasi
+    "negatif thinking": 25, // Variasi slang
+
+    "israf": 30, // Keyword baru
+    "tabdzir": 30, // Keyword baru
+    "boros": 30, // Keyword baru
+    "menghamburkan uang": 30, // Variasi
+    "buang-buang makanan": 30, // Variasi
+    "terlalu mewah": 30, // Variasi (tergantung konteks)
+
+    "tidak mau belajar": 30, // Keyword baru
+    "tidak mau beribadah": 30, // Keyword baru
+    "malas":9, // Keyword baru
+
   };
 
   // Fungsi untuk analisis text
