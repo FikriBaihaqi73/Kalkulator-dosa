@@ -42,7 +42,6 @@ export interface DosaItem {
     "rampok": 30, // Variasi
     "curi": 30, // Variasi
     "nyuri": 30, // Variasi typo/slang
-    "kemalingan": 30, // Variasi (meskipun pasif, bisa mengindikasikan kejadian)
     "ngutil": 30, // Variasi slang
 
     "bohong": 20,
@@ -54,15 +53,15 @@ export interface DosaItem {
     "tipu": 20, // Variasi
     "menipu": 20, // Variasi
 
-    "nonton film haram": 40,
-    "film haram": 40,
-    "blufilm": 40,
-    "film porno": 40, // Variasi
-    "nonton bokep": 40, // Variasi
-    "konten dewasa": 40, // Variasi
-    "video porno": 40, // Variasi
-    "nonton bf": 40, // Variasi slang
-    "nonton 18+": 40, // Variasi slang
+    "nonton film haram": 50,
+    "film haram": 50,
+    "blufilm": 50,
+    "film porno": 50, // Variasi
+    "nonton bokep": 50, // Variasi
+    "konten dewasa": 50, // Variasi
+    "video porno": 50, // Variasi
+    "nonton bf": 50, // Variasi slang
+    "nonton 18+": 50, // Variasi slang
 
     "selingkuh": 180, // Diperbarui
     "berzinah": 180, // Diperbarui
@@ -76,18 +75,18 @@ export interface DosaItem {
     "maksiat": 50, // Variasi (skor lebih rendah karena umum)
     "bermaksiat": 50, // Variasi (skor lebih rendah karena umum)
 
-    "pacaran": 25,
-    "pacaran beda agama": 35, // Variasi dengan skor berbeda? (opsional)
-    "pegangan tangan sama pacar": 25, // Variasi
-    "pacaran di luar nikah": 25, // Variasi
-    "berpacaran": 25, // Variasi
+    "pacaran": 50,
+    "pacaran beda agama": 55, // Variasi dengan skor berbeda? (opsional)
+    "pegangan tangan sama pacar": 55, // Variasi
+    "pacaran di luar nikah": 50, // Variasi
+    "berpacaran": 50, // Variasi
 
-    "fitnah": 35,
-    "memfitnah": 35,
-    "nuduh orang": 35, // Variasi
-    "nyebar hoax": 35, // Variasi (overlap dengan bohong, tapi bisa dibiarkan)
-    "menuduh tanpa bukti": 35, // Variasi
-    "fitnah keji": 35, // Variasi
+    "fitnah": 150,
+    "memfitnah": 150,
+    "nuduh orang": 150, // Variasi
+    "nyebar hoax": 40, // Variasi (overlap dengan bohong, tapi bisa dibiarkan)
+    "menuduh tanpa bukti": 150, // Variasi
+    "fitnah keji": 150, // Variasi
 
     "mabuk": 60, // Diperbarui
     "alkohol": 60, // Diperbarui
@@ -111,15 +110,15 @@ export interface DosaItem {
     "daging anjing": 50, // Variasi
     "makan anjing": 50, // Variasi
 
-    "korupsi": 150,
-    "korup": 150,
-    "nyolong duit negara": 150,
-    "makan uang rakyat": 150, // Variasi
-    "terima suap": 150, // Variasi
-    "memberi suap": 150, // Variasi
-    "uang haram": 150, // Variasi (tergantung konteks)
-    "gratifikasi": 150, // Variasi
-    "pungli": 150, // Variasi slang
+    "korupsi": 200,
+    "korup": 200,
+    "nyolong duit negara": 200,
+    "makan uang rakyat": 200, // Variasi
+    "terima suap": 200, // Variasi
+    "memberi suap": 200, // Variasi
+    "uang haram": 200, // Variasi (tergantung konteks)
+    "gratifikasi": 200, // Variasi
+    "pungli": 200, // Variasi slang
 
     "narkoba": 100,
     "obat terlarang": 100,
@@ -135,15 +134,15 @@ export interface DosaItem {
     "obat bius": 100, // Variasi (tergantung konteks)
     "sakau": 100, // Variasi (kondisi)
 
-    "membunuh": 150,
-    "bunuh": 150,
-    "ngehabisin nyawa": 150,
-    "bunuh orang": 150,
-    "menghilangkan nyawa": 150, // Variasi
-    "pembunuhan": 150, // Variasi
-    "bunuh diri": 150, // Variasi (dosa besar)
-    "membunuh diri": 150, // Variasi
-    "aborsi": 150, // Variasi (tergantung pandangan)
+    "membunuh": 220,
+    "bunuh": 220,
+    "ngehabisin nyawa": 220,
+    "bunuh orang": 220,
+    "menghilangkan nyawa": 220, // Variasi
+    "pembunuhan": 220, // Variasi
+    "bunuh diri": 220, // Variasi (dosa besar)
+    "membunuh diri": 220, // Variasi
+    "aborsi": 220, // Variasi (tergantung pandangan)
 
     "membully": 40,
     "bully": 40,
@@ -274,6 +273,11 @@ export interface DosaItem {
     "asap rokok": 25, // Variasi (tergantung konteks)
 
     "menyiksa hewan": 60, // Keyword baru
+    "nyiksa hewan": 60, // Keyword baru
+    "menyakiti hewan": 60, // Keyword baru
+    "nyiksa": 60, // Variasi slang
+    "nyiksa diri": 60, // Variasi
+    "nyiksa diri sendiri": 80, // Variasi
     "aniaya hewan": 60, // Keyword baru
     "pukul hewan": 60, // Variasi
     "sakiti hewan": 60, // Variasi
