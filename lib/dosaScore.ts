@@ -275,7 +275,6 @@ export interface DosaItem {
     "menyiksa hewan": 60, // Keyword baru
     "nyiksa hewan": 60, // Keyword baru
     "menyakiti hewan": 60, // Keyword baru
-    "nyiksa": 60, // Variasi slang
     "nyiksa diri": 60, // Variasi
     "nyiksa diri sendiri": 80, // Variasi
     "aniaya hewan": 60, // Keyword baru
