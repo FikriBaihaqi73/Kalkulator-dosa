@@ -19,6 +19,7 @@ export default function RootLayout({
           <footer className="footer">
             <p>© {new Date().getFullYear()} Kalkulator Dosa - Aplikasi Edukatif</p>
             <p>Bertujuan untuk introspeksi diri, bukan untuk menghakimi</p>
+            <p>ingat skor dosa itu hanyalah gambaran, dosa aslinya bisa lebih besar ataupun lebih rendah, karena itu semua kehendak Allah</p>
             <p><a href="https://teer.id/apg0i4vaap2blgwy8lru" target="_blank" rel="noopener noreferrer">Dukung kami di Trakteer agar semakin semangat ngoding</a></p>
           </footer>
         </div>
