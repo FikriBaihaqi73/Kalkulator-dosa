@@ -1,0 +1,32 @@
+.inputContainer {
+    margin-bottom: 2rem;
+  }
+  
+  .textarea {
+    width: 100%;
+    border: 2px solid #333;
+    background-color: #1e1e1e;
+    color: #f1f1f1;
+    border-radius: 8px;
+    padding: 1rem;
+    font-family: inherit;
+    font-size: 1rem;
+    resize: vertical;
+    transition: all 0.3s ease;
+  }
+  
+  .textarea:focus {
+    outline: none;
+    border-color: #ff4757;
+    box-shadow: 0 0 8px rgba(255, 71, 87, 0.6);
+  }
+  
+  .scoreInfo {
+    margin-top: 0.5rem;
+    height: 24px;
+  }
+  
+  .scoreValue {
+    color: #ff4757;
+    font-weight: bold;
+  }

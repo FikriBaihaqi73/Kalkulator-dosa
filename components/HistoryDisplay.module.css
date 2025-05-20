@@ -1,0 +1,43 @@
+.historyContainer {
+    margin-top: 2rem;
+    padding: 1.5rem;
+    background-color: #1a1a1a;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    color: var(--text-color);
+}
+
+.filterControls {
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.filterControls label {
+    font-weight: 600;
+}
+
+.filterSelect {
+    padding: 0.5rem;
+    border-radius: 4px;
+    border: 1px solid #333;
+    background-color: #2a2a2a;
+    color: var(--text-color);
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.filterSelect option {
+    background-color: #2a2a2a;
+    color: var(--text-color);
+}
+
+.chartContainer {
+    margin-top: 2rem;
+    /* Adjust size as needed */
+    width: 100%;
+    max-width: 700px; /* Example max width */
+    margin-left: auto;
+    margin-right: auto;
+}

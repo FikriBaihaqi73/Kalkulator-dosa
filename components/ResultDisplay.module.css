@@ -1,0 +1,143 @@
+.resultContainer {
+    margin-top: 2rem;
+    padding: 1.5rem;
+    background-color: #1a1a1a;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  }
+  
+  .scoreDisplay {
+    text-align: center;
+    margin: 1.5rem 0;
+  }
+  
+  .scoreValue {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #4cd137;
+    text-shadow: 0 0 10px rgba(76, 209, 55, 0.5);
+    transition: all 0.5s ease;
+  }
+  
+  .warning {
+    color: #ffa502;
+    text-shadow: 0 0 10px rgba(255, 165, 2, 0.5);
+  }
+  
+  .critical {
+    color: #ff4757;
+    text-shadow: 0 0 10px rgba(255, 71, 87, 0.5);
+    animation: pulse 1.5s infinite;
+  }
+  
+  .commentContainer {
+    margin-top: 2rem;
+    position: relative;
+    padding: 1rem;
+    border-left: 4px solid #ff4757;
+    background-color: #2a2a2a;
+    border-radius: 0 8px 8px 0;
+  }
+  
+  .typingIndicator {
+    display: flex;
+    gap: 4px;
+    margin-bottom: 0.5rem;
+  }
+  
+  .typingDot {
+    width: 8px;
+    height: 8px;
+    background-color: #ff4757;
+    border-radius: 50%;
+    opacity: 0.6;
+    animation: typing 1s infinite ease-in-out;
+  }
+  
+  .typingDot:nth-child(1) {
+    animation-delay: 0s;
+  }
+  
+  .typingDot:nth-child(2) {
+    animation-delay: 0.2s;
+  }
+  
+  .typingDot:nth-child(3) {
+    animation-delay: 0.4s;
+  }
+  
+  .comment {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin: 0;
+  }
+  
+  .cursor {
+    display: inline-block;
+    width: 2px;
+    height: 1.2em;
+    background-color: #ff4757;
+    margin-left: 2px;
+    vertical-align: text-bottom;
+    animation: blink 1s infinite;
+  }
+  
+  @keyframes typing {
+    0%, 100% {
+      transform: translateY(0);
+      opacity: 0.6;
+    }
+    50% {
+      transform: translateY(-4px);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes blink {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+  }
+  
+  @keyframes pulse {
+    0%, 100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.05);
+    }
+  }
+
+.saveButton {
+  display: block;
+  width: fit-content;
+  margin: 1.5rem auto 0.5rem auto; /* Center the button and add margin */
+  background-color: var(--accent-color); /* Use accent color for save */
+  color: var(--background-color);
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.saveButton:hover {
+  background-color: #3cb371; /* Darker shade of accent */
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.saveButton:active {
+  transform: translateY(0);
+}
+
+.saveStatus {
+  text-align: center;
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  color: var(--text-color); /* Or a specific status color */
+}
